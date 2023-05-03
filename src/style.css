@@ -48,18 +48,28 @@
     transition: 0.3s ease-in;
     transition: 0.3s ease-out;
 }
-.bodyContainer{
+.homeContainer{
     padding-top: 10vh;
     width: 30%;
     height: 75vh;
     margin: auto;
     color: white;
 }
-.bodyContainer h1{
+.homeContainer h1{
     font-size: 2rem;
 }
-.bodyContainer p{
+.homeContainer p{
     font-size: 1.5rem;
+}
+.contactContainer{
+    color: white;
+    width: 30%;
+    margin: auto;
+}
+.menuContainer{
+    color: white;
+    width: 30%;
+    margin: auto;
 }
 .footerContainer{
     width: 100%;

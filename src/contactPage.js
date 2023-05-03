@@ -3,7 +3,7 @@ const contactContent = () =>{
     contactContainer.classList.add('contactContainer')
 
     const contactHead = document.createElement('h1');
-    contactHead.innerHTML = 'This is our menu'
+    contactHead.innerHTML = 'Contact Us here'
     contactContainer.appendChild(contactHead);
 
     const contactText = document.createElement('p');
