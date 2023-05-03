@@ -46,9 +46,6 @@ const footer = () =>{
     footerContainer.appendChild(footer);
     return footerContainer;
 }
-    /**const image = document.createElement('img');
-    image.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg/800px-Good_Food_Display_-_NCI_Visuals_Online.jpg";
-*/
 export{
     header,
     footer
