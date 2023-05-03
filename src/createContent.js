@@ -37,18 +37,14 @@ const header = () => {
         }  
         return headContainer;
 }
-const bodyContent = () =>{
-    const bodyContainer = document.createElement('div')
-    bodyContainer.classList.add('bodyContainer')
+const footer = () =>{
+    const footerContainer = document.createElement('div')
+    footerContainer.classList.add('footerContainer')
 
-    const bodyHead = document.createElement('h1');
-    bodyHead.innerHTML = 'Welcome to the Pizza place where we make the best pizza you will ever taste!'
-    bodyContainer.appendChild(bodyHead);
-
-    const bodyText = document.createElement('p');
-    bodyText.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
-    bodyContainer.appendChild(bodyText);
-
+    const footer = document.createElement('p');
+    footer.innerHTML = 'Copyright © 2023 Pizza Place, Inc.'
+    footerContainer.appendChild(footer);
+    return footerContainer;
 }
     /**const image = document.createElement('img');
     image.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg/800px-Good_Food_Display_-_NCI_Visuals_Online.jpg";
@@ -63,6 +59,5 @@ const bodyContent = () =>{
 
 export{
     header,
-    bodyContent,
-
+    footer
 }
