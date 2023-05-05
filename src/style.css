@@ -63,11 +63,21 @@ body{
 }
 .homeContainer p{
     font-size: 1.5rem;
+    padding-top: 50px;
 }
 .contactContainer{
     color: white;
     width: 30%;
     margin: auto;
+    height: 80vh;
+    padding-top: 10vh;
+}
+.contactContainer h1{
+    font-size: 2rem;
+}
+.contactContainer p{
+    font-size: 1.5rem;
+    padding-top: 50px;
 }
 .menuContainer{
     padding-top: 20px;
